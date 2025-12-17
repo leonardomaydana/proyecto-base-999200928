@@ -104,7 +104,7 @@ aside header {
 }
 
 .search form input {
-  background-color: var(--grey-700);
+  background-color: var(--grey-500);
   width: 100%;
   display: block;
   border: none;
@@ -131,6 +131,14 @@ aside header {
   padding: 10px;
   align-items: center;
   gap: 10px;
+}
+
+.ticks {
+  display: flex;
+  font-size: 15px;
+  gap: 12px;
+  color: skyblue;
+  align-self: self-end;
 }
 
 .user-chat img {
@@ -273,8 +281,9 @@ footer .send:hover {
   transform: scale(0.98);
 }
 
+/* media debe ir 800 o 780px */
 /* responsive desing */
-@media (max-width:880px) {
+@media (max-width:340px) { 
   .app {
     grid-template-columns: 1fr;
   }
