@@ -21,7 +21,7 @@
 }
 
 body {
-  background-color: var(--primary-color);
+  background: linear-gradient(to right, purple,red,rgb(240, 167, 32));
   padding: 40px;
 }
 
@@ -73,6 +73,7 @@ aside header {
   display: flex;
   justify-content: end;
   gap: 10px;
+
 }
 
 .actions button {
@@ -133,12 +134,20 @@ aside header {
   gap: 10px;
 }
 
-.ticks {
-  display: flex;
+.user-info {
+  padding: 0px
+
+}
+
+.user-ticks {
   font-size: 15px;
   gap: 12px;
   color: skyblue;
-  align-self: self-end;
+}
+
+.user-ticks svg {
+  width: 30px;
+  align-items: end;
 }
 
 .user-chat img {
