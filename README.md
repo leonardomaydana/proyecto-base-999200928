@@ -10,14 +10,14 @@ El desarrollo se realizó utilizando únicamente **HTML y CSS**, sin el uso de J
 
 ## Estructura del proyecto
 
+/styles/main.css
 /index.html  
-/styles.css  
-/assets/ (íconos e imágenes)
+/README.md
 
 ---
 
 ## Cómo visualizarlo
-Abrir el archivo `index.html` en cualquier navegador web moderno.
+Abrir el archivo `index.html` con live server.
 
 ---
 
