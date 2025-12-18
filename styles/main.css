@@ -21,14 +21,14 @@
 }
 
 body {
-  background: linear-gradient(to right, purple,red,rgb(240, 167, 32));
+  background: rgb(42, 49, 43);
   padding: 40px;
 }
 
 .app {
   max-width: 1100px;
   margin: auto;
-  background-color: white;
+  background-color: rgb(230, 230, 230);
   display: grid;
   grid-template-columns: 320px 1fr;
   height: 90vh;
@@ -45,7 +45,7 @@ aside {
 }
 
 aside header {
-  background-color: var(--grey-800);
+  background-color: var(--grey-600);
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
@@ -57,7 +57,7 @@ aside header {
 .profile {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 10px; 
 }
 
 .profile img {
@@ -81,7 +81,7 @@ aside header {
   border: none;
   border-radius: 8px;
   cursor: pointer;
-  background-color: var(--grey-800);
+  background-color: var(--grey-600);
   color: var(--grey-300);
   transition: transform .2s;
 }
@@ -92,7 +92,7 @@ aside header {
 
 .actions button:hover {
   background-color: var(--grey-700);
-  transform: translateY(-4px);
+  transform: translateY(-5px);
 }
 
 /* search input */
@@ -135,14 +135,17 @@ aside header {
 }
 
 .user-info {
-  padding: 0px
-
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 .user-ticks {
-  font-size: 15px;
   gap: 12px;
   color: skyblue;
+  font-size: 15px;
+  align-self: self-end;
 }
 
 .user-ticks svg {
@@ -164,7 +167,7 @@ aside header {
 /* messages panel */
 
 .chat-header {
-  background-color: var(--grey-300);
+  background-color: forestgreen;
   border-bottom: 1px solid var(--grey-500);
   display: flex;
   padding: 10px;
