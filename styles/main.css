@@ -280,12 +280,6 @@ footer textarea {
   border: none;
 }
 
-footer textarea .taxt {
-  font-size: 16px;
-  font-family: var(--primary-font);
-  display: block;
-}
-
 footer textarea:focus {
   outline: 1px solid var(--grey-700);
   border: none;
@@ -308,9 +302,8 @@ footer .send:hover {
   transform: scale(0.98);
 }
 
-/* media debe ir 800 o 780px */
-/* responsive desing */
-@media (max-width:340px) { 
+
+@media (max-width:880px) { 
   .app {
     grid-template-columns: 1fr;
   }
